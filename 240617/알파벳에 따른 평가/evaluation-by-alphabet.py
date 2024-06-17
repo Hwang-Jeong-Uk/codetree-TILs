@@ -3,7 +3,7 @@ GG=input()
 if GG=='S':
     print("Superior")
 elif GG=='A':
-    print("Exccellent")
+    print("Excellent")
 elif GG=='B':
     print("Good")
 elif GG=='C':
