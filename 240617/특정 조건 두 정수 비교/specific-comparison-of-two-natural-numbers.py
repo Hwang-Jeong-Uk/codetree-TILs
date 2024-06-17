@@ -3,11 +3,16 @@ a=int(a)
 b=int(b)
 
 if a<b:
-    print(1)
+    c=1
+   
 else:
-    print(0)
+    c=0
+    
 
 if a==b:
-    print(1)
+    d=1
+    
 else:
-    print(0)
+    d=0
+   
+print(c,d)
