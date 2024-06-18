@@ -1,7 +1,6 @@
 a,b=input().split()
 a=int(a)
 b=int(b)
-c=a%1
-if c==0 and a>0:
+if a ==int(a) and a>0:
     for _ in range(b):
         print(a,end="")
