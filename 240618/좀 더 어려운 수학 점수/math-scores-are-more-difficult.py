@@ -6,8 +6,8 @@ e1=int(e1)
 e2=int(e2)
 
 if m1>m2:
-    print(A)
-elif m1==m2 and g1>g2:
-    print(A)
+    print('A')
+elif m1==m2 and e1>e2:
+    print('A')
 else:
-    print(B)
+    print("B")
