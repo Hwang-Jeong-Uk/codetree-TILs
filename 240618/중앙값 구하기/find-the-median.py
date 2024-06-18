@@ -13,3 +13,8 @@ if a>c:
         print(c)
     elif b>a:
         print(a)
+if c>b:
+    if b>a:
+        print(b)
+    elif a>c:
+        print(c)
