@@ -3,7 +3,7 @@ a=int(a)
 b=int(b)
 c=int(c)
 
-if a<b and a<c:
+if a<=b and a<=c:
     print("1",end=" ")
 else:
     print("0",end=" ")
