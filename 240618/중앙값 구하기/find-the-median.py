@@ -3,18 +3,9 @@ a=int(a)
 b=int(b)
 c=int(c)
 
-if a>b:
-    if b>c:
-        print(b)
-    elif c>a:
-        print(a)
-if a>c:
-    if c>b:
-        print(c)
-    elif b>a:
-        print(a)
-if b>c:
-    if a>b:
-        print(b)
-    elif c>a:
-        print(c)
+if (a>b>c)or(c>b>a):
+    print(b)
+elif (a>c>b)or(b>c>a):
+    print(c)
+else:
+    print(a)
