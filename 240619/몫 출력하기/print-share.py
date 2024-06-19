@@ -9,4 +9,3 @@ while True:
         cnt += 1
     if cnt == 3:
         break
-print(cnt)
