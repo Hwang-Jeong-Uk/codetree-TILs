@@ -11,4 +11,4 @@ for i in arr:
     cnt += 1
 
 print(sum_val,end=" ")
-print(sum_val/len(arrr))
+print(f"{sum_val/len(arrr):.1f}")
