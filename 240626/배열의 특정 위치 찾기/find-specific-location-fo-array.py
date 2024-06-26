@@ -11,6 +11,5 @@ for i in range(len(arr)):
         sum_vall += arr[i]
         cnt +=1
 
-print(arrt)
 print(sum_val,end=" ")
 print(round(sum_vall/cnt,1))
