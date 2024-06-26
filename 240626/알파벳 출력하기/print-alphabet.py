@@ -4,7 +4,7 @@ cnt = 'A'
 for i in range(n):
     for j in range(i+1):
         print(cnt,end="")
-        if cnt='Z':
+        if cnt=='Z':
             cnt='A'
         else:
             cnt = chr(ord(cnt)+1)
