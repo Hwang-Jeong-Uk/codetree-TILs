@@ -3,6 +3,8 @@ n,q=int(n),int(q)
 
 arr=list(map(int,input().split()))
 arrtt=[]
+cnt = 0
+count=[0]
 for i in range(q):
     arrt=[]
     arrt=list(map(int,input().split()))
@@ -12,7 +14,15 @@ for i in range(q):
     elif arrt[0]==2:
         for j in range(len(arr)):
             if arr[j]==arrt[1]:
-                print(j+1)
+                cnt +=1
+                count.append(arr[j])
+                if cnt>=2:
+                    print(count[1])
+                elif cnt==1:
+                    print(j+1)
+                else:
+                    print(0)
+                
         continue
     else:
         start= arrt[1]-1
