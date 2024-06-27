@@ -19,8 +19,8 @@ for i in range(q):
                     print(count[1])
                 elif cnt==1:
                     print(j+1)
-                else:
-                    print(0)
+            else:
+                print(0)
                 
         continue
     else:
