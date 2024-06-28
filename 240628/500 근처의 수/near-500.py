@@ -8,4 +8,4 @@ for i in arr:
         arrtt.append(i)
 
 print(max(arrt),end=" ")
-print(max(arrtt))
+print(min(arrtt))
