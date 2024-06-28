@@ -19,3 +19,4 @@ for _ in range(q):
     elif arrt[0] == 3:
         for k in range(arrt[1],arrt[2]+1):
             print(arr[k-1],end=" ")
+        print()
