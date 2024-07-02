@@ -3,7 +3,7 @@ arr=[[0 for _ in range(n+1)] for _ in range(n+1)]
 
 for _ in range(m):    
     r,c=tuple(map(int,input().split()))
-    arr[r][c]=1
+    arr[r-1][c-1]=1
 
 for i in range(n):
     for j in range(n):
