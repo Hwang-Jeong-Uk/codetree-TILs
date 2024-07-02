@@ -18,7 +18,7 @@ for start_row in range(1,n):
     curr_col = m-1
     curr_row = start_row
 
-    while curr_row < n and curr_col <m:
+    while curr_row < n and curr_col >= 0:
         arr[curr_row][curr_col]=cnt
 
         curr_row += 1
