@@ -3,4 +3,6 @@ alp=input()
 
 for i in arr:
     if alp == i[-1]:
-        print(i)
+        print(i) 
+    else:
+        print('None')
