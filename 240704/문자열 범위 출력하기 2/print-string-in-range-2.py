@@ -1,5 +1,8 @@
 string=input()
 num=int(input())
 
-for i in range(num):
-    print(string[len(string)-i-1],end="")
+if len(string) >= num:
+    for i in range(num):
+        print(string[len(string)-i-1],end="")
+else:
+    print(string[::-1])
