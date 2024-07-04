@@ -6,7 +6,9 @@ answer="true"
 AB=A+B
 BA=B+A
 
-if AB == BA:
-    print(answer)
-else:
-    print('flase')
+for i in range(len(AB)):
+    if AB[i] != BA[i]:
+        answer='false'
+        break
+
+print(answer)
