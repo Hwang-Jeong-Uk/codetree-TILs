@@ -4,7 +4,7 @@ arr=list(s)
 for _ in range(len(arr)):
     q=int(input())
 
-    if q > len(arr):
+    if q >= len(arr):
         arr.pop(-1)
     else:
         arr.pop(q)
